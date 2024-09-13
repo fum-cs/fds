@@ -52,7 +52,7 @@ Random Search
 **HW3**{: .label .label-red }[Python Code of Program 1.2, Page 11 of My book - RS](https://vu.um.ac.ir/mod/assign/view.php?id=449054&forceview=1), due: 1402/07/25
 
 ## 1402/07/17
-**HW1-Sol**{: .label .label-green }, Solution: **Colab**{: .label .label-green }[Unit Sphere](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw1/fatehinia_data_algo.ipynb)
+<!-- **HW1-Sol**{: .label .label-green }, Solution: **Colab**{: .label .label-green }[Unit Sphere](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw1/fatehinia_data_algo.ipynb) -->
 * SAT
 * SA, Continue
   : Chapter 3 of [My Book](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0)
@@ -94,12 +94,15 @@ Some Python packages for PSO:
   - 12.3 SEQUENTIAL CLUSTERING ALGORITHMS
 
 ## 1402/07/29
-* **HW2-Sol**{: .label .label-green }, Solution: 
-  - **Colab**{: .label .label-green }[Fatehinia](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw2/Fatehinia.ipynb)
-  - **Colab**{: .label .label-green }[Bagherpour](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw2/Bagherpour.ipynb)
 
-* Stirling Numbers, Recursive Functions & SAT Table
-  - **Colab**{: .label .label-green }[SAT Table](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/SAT_Table.ipynb)
+- Exercises
+
+<!-- * **HW2-Sol**{: .label .label-green }, Solution: 
+  - **Colab**{: .label .label-green }[Fatehinia](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw2/Fatehinia.ipynb)
+  - **Colab**{: .label .label-green }[Bagherpour](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw2/Bagherpour.ipynb) -->
+
+<!-- * Stirling Numbers, Recursive Functions & SAT Table
+  - **Colab**{: .label .label-green }[SAT Table](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/SAT_Table.ipynb) -->
 
 ## 1402/08/01
 
