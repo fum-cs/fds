@@ -3,6 +3,7 @@ title: Introduction to Linear Algebra with Python
 published: true
 mathjax: true
 nav_order: 4
+math: mathjax
 ---
 
 <iframe src="https://github.com/sponsors/pabloinsente/card" title="Sponsor pabloinsente" height="225" width="600" style="border: 0;"></iframe>
