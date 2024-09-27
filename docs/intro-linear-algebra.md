@@ -1,7 +1,6 @@
 ---
 title: Introduction to Linear Algebra with Python
 published: true
-mathjax: true
 nav_order: 4
 math: mathjax
 ---
