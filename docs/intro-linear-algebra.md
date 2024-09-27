@@ -197,7 +197,7 @@ $$
 a \in \textit{A}
 $$
 
-Another important idea is **inclusion**, which allow us to build *subsets*. Consider sets $\textit{A}$ and $\textit{B}$. When every element of $\textit{A}$ is an element of $\textit{B}$, we say that $\textit{A}$ is a *subset* of $\textit{B}$, or that $\textit{B}$ *includes* $\textit{A}$. The notation is:
+Another important idea is **inclusion**, which allow us to build *subsets*. Consider sets $$\textit{A}$$ and \(\textit{B}\). When every element of $\textit{A}$ is an element of $\textit{B}$, we say that $\textit{A}$ is a *subset* of $\textit{B}$, or that $\textit{B}$ *includes* $\textit{A}$. The notation is:
 
 $$
 \textit{A} \subset \textit{B}

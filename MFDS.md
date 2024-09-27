@@ -17,19 +17,24 @@ tags:
 * [Foundations of Data Science (FDS)](https://www.cs.cornell.edu/jeh/book.pdf), by Avrim Blum, John Hopcroft, and Ravindran Kannan, 2018
 
 
-## 1403/07/08
+## 1403/07/07
 ### <a name="L1"></a>Introduction to Data Science  
-- Slide: [Introduction to Data Science](https://www.datasciencecourse.org/slides/15388_S22_Lecture_1_intro.pdf) by Zico Kolter
-- Slide: [Introduction to Data Science](https://github.com/justmarkham/DAT8/blob/master/slides/01_intro_to_data_science.pdf) by Kevin Markham  
-- Slide: [Clustering](https://mattdickenson.com/assets/clustering2.pdf) by Matt Dickenson 
+
+* [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra)
 
 **HW1**{: .label .label-red }[Generate random points with uniform distribution in the unit sphere](https://vu.um.ac.ir/mod/assign/view.php?id=441612), due date: 1403/07/12
     
+**HW2**{: .label .label-red }[Satisfiability Table](https://vu.um.ac.ir/mod/assign/view.php?id=441616), due date: 1403/07/15
+
+**Further Reading**{: .label .label-yellow }
+
 ### <a name="L2"></a>Python Programming
         
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
-**HW2**{: .label .label-red }[Satisfiability Table](https://vu.um.ac.ir/mod/assign/view.php?id=441616), due date: 1403/07/15
+- Slide: [Introduction to Data Science](https://www.datasciencecourse.org/slides/15388_S22_Lecture_1_intro.pdf) by Zico Kolter
+- Slide: [Introduction to Data Science](https://github.com/justmarkham/DAT8/blob/master/slides/01_intro_to_data_science.pdf) by Kevin Markham  
+- Slide: [Clustering](https://mattdickenson.com/assets/clustering2.pdf) by Matt Dickenson 
 
 
 ## 1403/07/10
