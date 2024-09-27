@@ -2,6 +2,7 @@
 layout: page
 title: Mathematical Foundations of Data Science 
 description: Listing of course modules and topics.
+has_children: true
 mathjax: true
 tags: 
   - Computer Science Dept.

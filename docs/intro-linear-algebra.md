@@ -3,8 +3,8 @@ layout: page
 title: Introduction to Linear Algebra with Python
 published: true
 mathjax: true
-parent: MFDS
-nav_order: 4
+parent: Mathematical Foundations of Data Science
+nav_order: 3
 ---
 
 This content is re-published of Pablo Caceres' [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra).
