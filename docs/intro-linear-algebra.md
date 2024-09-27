@@ -1,5 +1,7 @@
 ---
-title: Introduction to Linear Algebra with Python
+title: Introduction to Linear Algebra for Applied Machine Learning with Python
+published: true
+mathjax: true
 nav_order: 2
 ---
 

@@ -87,3 +87,5 @@ compress_html:
 
 plugins:
   - jekyll-seo-tag
+
+math: mathjax
