@@ -22,6 +22,8 @@ tags:
 
 * [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra)
 
+* [Introduction to Linear Algebra with Python](https://fum-cs.github.io/fds/docs/intro-linear-algebra/)
+
 **HW1**{: .label .label-red }[Generate random points with uniform distribution in the unit sphere](https://vu.um.ac.ir/mod/assign/view.php?id=441612), due date: 1403/07/12
     
 **HW2**{: .label .label-red }[Satisfiability Table](https://vu.um.ac.ir/mod/assign/view.php?id=441616), due date: 1403/07/15
