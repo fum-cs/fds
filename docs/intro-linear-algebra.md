@@ -291,7 +291,7 @@ The simples way to see the effect of this definition of a function is with a cha
 **Fig. 1: Functions**
 
 
-![](fds/assets/images/linear-algebra/b-function.svg)
+![](../assets/images/linear-algebra/b-function.svg)
 
 
 For $\textit{f}: \textit{X} \rightarrow \textit{Y}$, the *domain* of $\textit{f}$ equals to $\textit{X}$, but the *range* does not necessarily equals to  $\textit{Y}$. Just recall that the *range* includes only the elements for which $\textit{Y}$ has a relation with $\textit{X}$. 
@@ -335,12 +335,9 @@ Vectors come in three flavors: (1) **geometric vectors**, (2) **polynomials**, (
 
 ![](../assets/images/linear-algebra/b-geometric-vectors.svg)
 
-![](fds/assets/images/linear-algebra/b-geometric-vectors.svg)
-
-
 ### Polynomials
 
-**A polynomial is an expression like $f(x) = x^2 + y + 1$**. This is, a expression adding multiple "terms" (nomials). Polynomials are vectors because they meet the definition of a vector: they can be added together to get another polynomial, and they can be multiplied together to get another polynomial. 
+**A polynomial is an expression like $f(x) = x^2 + y + 1$ **. This is, a expression adding multiple "terms" (nomials). Polynomials are vectors because they meet the definition of a vector: they can be added together to get another polynomial, and they can be multiplied together to get another polynomial. 
 
 $$
 \text{function addition is valid} \\
@@ -357,7 +354,7 @@ $$
 **Fig. 3: Polynomials**
 
 
-![](fds/assets/images/linear-algebra/b-polynomials-vectors.svg)
+![](../assets/images/linear-algebra/b-polynomials-vectors.svg)
 
 
 ### Elements of R
@@ -510,7 +507,7 @@ we are saying: starting from the origin, move 3 units in the 1st perpendicular a
 **Fig. 4: Coordinate systems**
 
 
-![](fds/assets/images/linear-algebra/b-coordinate-system.svg)
+![](../assets/images/linear-algebra/b-coordinate-system.svg)
 
 
 ## Basic vector operations
@@ -838,7 +835,7 @@ Consider the vectors $\bf{x}$ and $\bf{y}$ and the scalars $\alpha$ and $\beta$.
 **Fig. 5: Vector Span**
 
 
-![](fds/assets/images/linear-algebra/b-vector-span.svg)
+![](../assets/images/linear-algebra/b-vector-span.svg)
 
 
 What would happen if the vectors point in the same direction? Now, if you combine them, you just can **span a line**, as shown in the left-pane in **Fig. 5**. If you have ever heard of the term "multicollinearity", it's closely related to this issue: when two variables are "colinear" they are pointing in the same direction, hence they provide redundant information, so can drop one without information loss.
@@ -860,7 +857,7 @@ Intuitively, you can think in closure as being unable to "jump out" from space i
 **Fig. 6: Vector subspaces**
 
 
-![](fds/assets/images/linear-algebra/b-vector-subspace.svg)
+![](../assets/images/linear-algebra/b-vector-subspace.svg)
 
 
 Consider the following questions: Is $\bf{x}=\begin{bmatrix} 1 \\ 1 \end{bmatrix}$ a valid subspace of $\mathbb{R^2}$? Let's evaluate $\bf{x}$ on the three conditions:
@@ -891,7 +888,7 @@ The left-pane shows a triplet of **linearly dependent** vectors, whereas the rig
 **Fig. 7: Linear dependence and independence**
 
 
-![](fds/assets/images/linear-algebra/b-linear-independence.svg)
+![](../assets/images/linear-algebra/b-linear-independence.svg)
 
 
 A set of vectors is **linearly dependent** if at least one vector can be obtained as a linear combination of other vectors in the set. As you can see in the left pane, we can combine vectors $x$ and $y$ to obtain $z$. 
@@ -909,7 +906,7 @@ Now that we know what subspaces and linear dependent vectors are, we can introdu
 **Fig. 8: Vector null space**
 
 
-![](fds/assets/images/linear-algebra/b-vector-null-space.svg)
+![](../assets/images/linear-algebra/b-vector-null-space.svg)
 
 
 As result, with this four vectors, we can form the following two combinations that will "map" into the origin of the coordinate system, this is, the zero vector $(0,0)$:
@@ -938,7 +935,7 @@ Grasping the meaning of these three properties may be difficult at this point, b
 **Fig. 9: Vector norms**
 
 
-![](fds/assets/images/linear-algebra/b-l2-norm.svg)
+![](../assets/images/linear-algebra/b-l2-norm.svg)
 
 
 ### Euclidean norm
@@ -1120,7 +1117,7 @@ $$
 **Fig. 10: Law of cosines and Angle between vectors**
 
 
-![](fds/assets/images/linear-algebra/b-vector-angle.svg)
+![](../assets/images/linear-algebra/b-vector-angle.svg)
 
 
 We can replace this expression with vectors lengths as: 
@@ -1190,7 +1187,7 @@ Here is an example of orthogonal vectors
 **Fig. 11: Orthogonal vectors**
 
 
-![](fds/assets/images/linear-algebra/b-orthogonal-vectors.svg)
+![](../assets/images/linear-algebra/b-orthogonal-vectors.svg)
 
 
 
@@ -2093,7 +2090,7 @@ Geometrically, the solution for this representation equals to plot a **set of pl
 **Fig. 12: Visualiation system of equations as planes**
 
 
-![](fds/assets/images/linear-algebra/b-planes-intersection.svg)
+![](../assets/images/linear-algebra/b-planes-intersection.svg)
 
 
 An alternative way, which I personally prefer to use, is to represent the system as a **linear combination of the column vectors times a scaling term**:
@@ -2129,7 +2126,7 @@ Geometrically, the solution for this representation equals to plot a set of **ve
 **Fig. 13: System of equations as linear combination of vectors**
 
 
-![](fds/assets/images/linear-algebra/b-vectors-combination.svg)
+![](../assets/images/linear-algebra/b-vectors-combination.svg)
 
 
 ## The four fundamental matrix subsapces
@@ -2987,7 +2984,7 @@ From a geometrical perspective, affine mappings displace spaces (lines or hyperp
 **Fig. 14: Affine mapping**
 
 
-![](fds/assets/images/linear-algebra/b-affine-mapping.svg)
+![](../assets/images/linear-algebra/b-affine-mapping.svg)
 
 
 ## Affine combination of vectors
@@ -3010,7 +3007,7 @@ In words, we constrain the sum of the weights $\beta$ to $1$. In practice, this 
 **Fig. 15: Affine combinations**
 
 
-![](fds/assets/images/linear-algebra/b-affine-combination.svg)
+![](../assets/images/linear-algebra/b-affine-combination.svg)
 
 
 **Fig. 15** shows two affine combinations. The first combination with weights $\beta_1 = \frac{1}{2}$ and $\beta_2 = \frac{1}{2}$, which yields the midpoint between vectors $\bf{x}$ and $\bf{y}$. The second combination with weights $\beta_1 = 3$ and $\beta_2 =-1$ (add up to $1$), which yield a point over the vector $\bf{z}$. In both cases, we have that the resulting vector lies on the same line. This is a general consequence of constraining the sum of the weights to $1$: *every affine combination of the same set of vectors will map onto the same space*. 
@@ -4971,7 +4968,7 @@ Keep these ideas in mind as it will be important later for QR decomposition.
 **Fig. 16: Orthogonalization**
 
 
-![](fds/assets/images/linear-algebra/b-gram-schmidt.svg)
+![](../assets/images/linear-algebra/b-gram-schmidt.svg)
 
 
 Let's compute $\textbf{q}_2$ now:
@@ -5258,7 +5255,7 @@ The figure below exemplifies what I just said.
 **Fig. 17: Vector orientation**
 
 
-![](fds/assets/images/linear-algebra/b-determinant-orientation.svg)
+![](../assets/images/linear-algebra/b-determinant-orientation.svg)
 
 
 The situation for the $\textit{sign}$ volume of the parallelepiped is no different: when the vectors are *counterclockwise* oriented, we say the vectors are *positively oriented* (i.e., positive volume); when the vectors are *clockwise* oriented, we say the vectors are *negatively oriented* (i.e., negative volume).
@@ -5458,7 +5455,7 @@ Meaning that the vertical axis was scaled by $4$ and the horizontal axis by $3$,
 **Fig. 18: Determinants**
 
 
-![](fds/assets/images/linear-algebra/b-determinant-scaling.svg)
+![](../assets/images/linear-algebra/b-determinant-scaling.svg)
 
 
 ### The importance of determinants
@@ -5488,7 +5485,7 @@ If you are like me, you have probably gotten use to the idea of describing any 2
 **Fig. 19: Change of basis**
 
 
-![](fds/assets/images/linear-algebra/b-change-basis.svg)
+![](../assets/images/linear-algebra/b-change-basis.svg)
 
 
 The question now is how to "move" from one set of basis vectors to the other. The answer is with **linear mappings**. We know already that $\textbf{x', y'}$ equals to $\textbf{a}=\begin{bmatrix} -2 \\ 2 \end{bmatrix}$ and $\textbf{b}=\begin{bmatrix} 2 \\ 2 \end{bmatrix}$ in $\textbf{x, y}$ coordinates. To find the values of $\textbf{x, y}$ in $\textbf{x', y'}$, we need to take the **inverse of $\textit{T}$**. Think about it in this way: we represented $\textbf{x'=a, y'=a}$ in $\textbf{x, y}$ by scaling its unit vectors by the transformation matrix $\textit{T}$ as:
@@ -5559,7 +5556,7 @@ Put simply, the **eigenvector of a matrix** is a non-zero vector that *only gets
 **Fig. 20: Eigenvector in a 3-dimensional rotation**
 
 
-![](fds/assets/images/linear-algebra/b-eigenvector.svg)
+![](../assets/images/linear-algebra/b-eigenvector.svg)
 
 
 More formally, we define eigenvectors and eigenvalues as:
@@ -6071,7 +6068,7 @@ Fig 21. illustrate the action of $\textit{X}^{-1}$, $\Lambda$, and $\textit{X}$ 
 **Fig. 21: Eigendecomposition**
 
 
-![](fds/assets/images/linear-algebra/b-eigendecomposition.svg)
+![](../assets/images/linear-algebra/b-eigendecomposition.svg)
 
 
 ### The problem with Eigendecomposition
@@ -6280,7 +6277,7 @@ Fig 22. illustrate the effect of $\textit{A}^{3 \times 2}$, i.e., $\textit{V}^T$
 **Fig. 22: Singular Value Decomposition**
 
 
-![](fds/assets/images/linear-algebra/b-svd.svg)
+![](../assets/images/linear-algebra/b-svd.svg)
 
 
 ### Singular Value Decomposition vs Eigendecomposition

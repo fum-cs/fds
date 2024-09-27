@@ -73,7 +73,7 @@ defaults:
     values:
       layout: announcement
 
-math: mathjax
+math: katex
 
 compress_html:
   clippings: all
