@@ -1,16 +1,15 @@
 ---
 layout: page
-title: Mathematical Foundations of Data Science 
+title: Algorithms for Data Science (Fall 2023)
 description: Listing of course modules and topics.
 tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
+
 
 ## <a name="Main-TextBooks"></a>Main TextBooks:
 
 * [Data Mining and Analysis: Fundamental Concepts and Algorithms](https://dataminingbook.info/) by Mohammed J. Zaki and Wagner Meira Jr. (Data Mining & Analysis) [PDF](https://fumdrive.um.ac.ir/index.php/f/4160875)
 * [All Of Statistics: A Concise Course In Statistical Inference](https://egrcc.github.io/docs/math/all-of-statistics.pdf) by Larry Wassennan (All Of Statistics)
- 
-# Math & Stat Part, by Dr. Fakoor
 
 ## 1402 Fall 
 ### <a name="L7"></a>Data Matrix (2 Sessions)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Algorithms for Data Science 
+title: Mathematical Foundations of Data Science 
 description: Listing of course modules and topics.
 mathjax: true
 tags: 
