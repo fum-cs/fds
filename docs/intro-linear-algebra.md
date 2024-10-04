@@ -5,6 +5,7 @@ published: true
 mathjax: true
 parent: Mathematical Foundations of Data Science
 nav_order: 3
+color_scheme: dark
 ---
 
 This content is re-published of Pablo Caceres' [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra).
