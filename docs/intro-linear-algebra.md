@@ -5,8 +5,24 @@ published: true
 mathjax: true
 parent: Mathematical Foundations of Data Science
 nav_order: 3
-color_scheme: dark
+
 ---
+
+<button class="btn js-toggle-dark-mode">Please use dark color mode</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Dark color scheme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script>
 
 This content is re-published of Pablo Caceres' [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra).
 
