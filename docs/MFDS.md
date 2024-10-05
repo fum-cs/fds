@@ -27,7 +27,7 @@ tags:
 
 **HW1**{: .label .label-red }[Generate random points with uniform distribution in the unit sphere](https://vu.um.ac.ir/mod/assign/view.php?id=441612), due date: ~~1403/07/12~~ Extended: 1403/07/18
     
-**HW2**{: .label .label-red }[Satisfiability Table](https://vu.um.ac.ir/mod/assign/view.php?id=441616), due date: ~~1403/07/15~~ Extended: 1403/07/18
+**HW2**{: .label .label-red }[Satisfiability Table](https://vu.um.ac.ir/mod/assign/view.php?id=525697), due date: ~~1403/07/15~~ Extended: 1403/07/18
 
 **Further Reading**{: .label .label-yellow }
 
@@ -40,7 +40,7 @@ tags:
 - Slide: [Clustering](https://mattdickenson.com/assets/clustering2.pdf) by Matt Dickenson 
 
 
-## 1403/07/14
+## 1403/07/14, 21
 
 ### k-NN
 
@@ -97,7 +97,7 @@ Some Examples:
 
 - [Some published papers about the above programs](https://fumcs.github.io/projects/comb-opt/)
 
-## 1403/07/21
+## 1403/07/28
 Random Search
   : Chapter 1 & 2 of [My Book](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0) + [My NP-Complete Paper](https://www.dropbox.com/s/gdwuin9xycbvxwa/1379-npcomplete.pdf?dl=0)
 
