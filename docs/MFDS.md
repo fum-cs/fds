@@ -40,7 +40,44 @@ tags:
 - Slide: [Clustering](https://mattdickenson.com/assets/clustering2.pdf) by Matt Dickenson 
 
 
-## 1403/07/10
+## 1403/07/14
+
+### High Dimensional Data
+
+* Section 2.5 of [ESL](https://fumdrive.um.ac.ir/index.php/s/FH8nB4SwGkJrMeQ)
+   - Page 41/764 Local Methods in High Dimensions
+
+* [The curse of dimensionality, Candy example](../../misc/Curse%20of%20Dimensionality%20-%20Candy-Example.pdf)
+
+* Slides [Chap. 1 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap1.pdf)
+
+* Slides [Chap. 6 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap6.pdf)
+
+**Colab**{: .label .label-green }[High Dimensional Data - The curse of dimensionality](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/high_dim_and_CD.ipynb)
+
+**HW-xx**{: .label .label-red }[Page 15 of FDS - Orthogonality of d-dimensional Gaussian vectors](https://vu.um.ac.ir/mod/assign/view.php?id=460674), due: 1403/08/26
+
+**Colab**{: .label .label-green }[High Dimensional Data - KNN](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/high_dim_and_KNN.ipynb)
+
+**Colab**{: .label .label-green }[Clustering of images, as high dim. data](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/image_clustering.ipynb)
+
+**Further Reading**{: .label .label-yellow }
+* [Random Projection: Theory and Implementation in Python with Scikit-Learn](https://stackabuse.com/random-projection-theory-and-implementation-in-python-with-scikit-learn/)
+* [Johnson–Lindenstrauss lemma](https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma)
+* [Gaussian random projection](https://en.wikipedia.org/wiki/Random_projection)
+* [Scikit-learn: The Johnson-Lindenstrauss bound for embedding with random projections](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_johnson_lindenstrauss_bound.html#sphx-glr-auto-examples-miscellaneous-plot-johnson-lindenstrauss-bound-py)
+
+**Paper**{: .label .label-blue }[Supervised dimensionality reduction for big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8129083/)
+
+**Paper**{: .label .label-blue }[An Introduction to Johnson–Lindenstrauss Transforms
+](https://arxiv.org/pdf/2103.00564.pdf)
+* [Sketching Algorithms for Big Data, Harvard](https://www.sketchingbigdata.org/fall17/)
+  - [JL Lemma, History of lower bounds](https://www.sketchingbigdata.org/fall17/lec/lec5.pdf)
+  - [JL Lower bound Optimality](https://www.sketchingbigdata.org/fall17/lec/lec6.pdf)
+
+**Further Reading**{: .label .label-yellow }
+
+
 Discrete Optimization
 : Draft version of My Book: [Meta Heuristic Algorithms](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0)
 
@@ -50,33 +87,31 @@ Some Examples:
 - Traveling Salesman Problem
 - Packing & Cutting Problems, [My old Delphi program](https://www.dropbox.com/s/3ztaqqlpki9e2ep/Thesis.zip?dl=1), previous century! My MSc. Project.
 
-**Further Reading**{: .label .label-yellow }
 - [Some published papers about the above programs](https://fumcs.github.io/projects/comb-opt/)
 
-## 1403/07/15
+## 1403/07/21
 Random Search
   : Chapter 1 & 2 of [My Book](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0) + [My NP-Complete Paper](https://www.dropbox.com/s/gdwuin9xycbvxwa/1379-npcomplete.pdf?dl=0)
 
-**HW3**{: .label .label-red }[Python Code of Program 1.2, Page 11 of My book - RS](https://vu.um.ac.ir/mod/assign/view.php?id=449054&forceview=1), due: 1403/07/25
+**HW-xx**{: .label .label-red }[Python Code of Program 1.2, Page 11 of My book - RS](https://vu.um.ac.ir/mod/assign/view.php?id=449054&forceview=1), due: 1403/07/25
 
-## 1403/07/17
 <!-- **HW1-Sol**{: .label .label-green }, Solution: **Colab**{: .label .label-green }[Unit Sphere](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/hw1/fatehinia_data_algo.ipynb) -->
 * SAT
 * SA, Continue
   : Chapter 3 of [My Book](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0)
 
-**HW4**{: .label .label-red }[Python Code of Program 1.3, Page 23 of My book - SA](https://vu.um.ac.ir/mod/assign/view.php?id=449055&forceview=1), due: 1403/07/26
+**HW-xx**{: .label .label-red }[Python Code of Program 1.3, Page 23 of My book - SA](https://vu.um.ac.ir/mod/assign/view.php?id=449055&forceview=1), due: 1403/07/26
 
 **Further Reading**{: .label .label-yellow }
 * [Simulated Annealing From Scratch in Python](https://machinelearningmastery.com/simulated-annealing-from-scratch-in-python/)
 * [Simulated Annealing Tutorial, 2D Example](http://apmonitor.com/me575/index.php/Main/SimulatedAnnealing)
 
 
-## 1403/07/22
+## 1403/07/28
 PSO
   : Chapter 6 of [My Book](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0)
 
-**HW5**{: .label .label-red }Use one the Python packages to find the minimum of $$f(x)=3sin(x)+(0.1x-3)^2$$: [PSO for function 1.2](https://vu.um.ac.ir/mod/assign/view.php?id=449056&forceview=1), due: 1403/07/28
+**HW-xx**{: .label .label-red }Use one the Python packages to find the minimum of $$f(x)=3sin(x)+(0.1x-3)^2$$: [PSO for function 1.2](https://vu.um.ac.ir/mod/assign/view.php?id=449056&forceview=1), due: 1403/07/28
 
 Some Python packages for PSO:
   * [Pymoo](https://pymoo.org/algorithms/soo/pso.html)
@@ -117,9 +152,9 @@ Some Python packages for PSO:
 * SAT Table & Brute Force Algorithm for Clustering
   - **Colab**{: .label .label-green }[Brute Force Alg for Clustering](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/BF-clustering.ipynb)
   
-**HW6**{: .label .label-red }[Generate data & Clustering](https://vu.um.ac.ir/mod/assign/view.php?id=454178), due: 1403/08/04
+**HW-xx**{: .label .label-red }[Generate data & Clustering](https://vu.um.ac.ir/mod/assign/view.php?id=454178), due: 1403/08/04
 
-**HW7**{: .label .label-red }[BSAS Algorithm](https://vu.um.ac.ir/mod/assign/view.php?id=454181), due: 1403/08/07
+**HW-xx**{: .label .label-red }[BSAS Algorithm](https://vu.um.ac.ir/mod/assign/view.php?id=454181), due: 1403/08/07
 
 ### Image Processing and Computer Vision, Intro
 
@@ -157,48 +192,13 @@ Some Python packages for PSO:
 
 **Colab**{: .label .label-green }[LVQ](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/LVQ.ipynb)
 
-**HW8**{: .label .label-red }[K-means on color images](https://vu.um.ac.ir/mod/assign/view.php?id=458799), due: 1403/08/19
+**HW-xx**{: .label .label-red }[K-means on color images](https://vu.um.ac.ir/mod/assign/view.php?id=458799), due: 1403/08/19
 
 **Further Reading**{: .label .label-yellow }
 
 * [Clustering, Lecture 14, New York University](https://people.csail.mit.edu/dsontag/courses/ml12/slides/lecture14.pdf) 
 * [CSC 411 Lecture 15: K-Means, University of Toronto](https://www.cs.toronto.edu/~rgrosse/courses/csc411_f18/slides/lec15-slides.pdf)
 
-
-## 1403/08/20,22
-
-### High Dimensional Data
-
-* [The curse of dimensionality, Candy example](../misc/Curse%20of%20Dimensionality%20-%20Candy-Example.pdf)
-
-* Section 2.5 of [ESL](https://fumdrive.um.ac.ir/index.php/s/FH8nB4SwGkJrMeQ)
-   - Page 41/764 Local Methods in High Dimensions
-
-* Slides [Chap. 1 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap1.pdf)
-
-* Slides [Chap. 6 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap6.pdf)
-
-**Colab**{: .label .label-green }[High Dimensional Data - The curse of dimensionality](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/high_dim_and_CD.ipynb)
-
-**HW9**{: .label .label-red }[Page 15 of FDS - Orthogonality of d-dimensional Gaussian vectors](https://vu.um.ac.ir/mod/assign/view.php?id=460674), due: 1403/08/26
-
-**Colab**{: .label .label-green }[High Dimensional Data - KNN](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/high_dim_and_KNN.ipynb)
-
-**Colab**{: .label .label-green }[Clustering of images, as high dim. data](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/image_clustering.ipynb)
-
-**Further Reading**{: .label .label-yellow }
-* [Random Projection: Theory and Implementation in Python with Scikit-Learn](https://stackabuse.com/random-projection-theory-and-implementation-in-python-with-scikit-learn/)
-* [Johnson–Lindenstrauss lemma](https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma)
-* [Gaussian random projection](https://en.wikipedia.org/wiki/Random_projection)
-* [Scikit-learn: The Johnson-Lindenstrauss bound for embedding with random projections](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_johnson_lindenstrauss_bound.html#sphx-glr-auto-examples-miscellaneous-plot-johnson-lindenstrauss-bound-py)
-
-**Paper**{: .label .label-blue }[Supervised dimensionality reduction for big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8129083/)
-
-**Paper**{: .label .label-blue }[An Introduction to Johnson–Lindenstrauss Transforms
-](https://arxiv.org/pdf/2103.00564.pdf)
-* [Sketching Algorithms for Big Data, Harvard](https://www.sketchingbigdata.org/fall17/)
-  - [JL Lemma, History of lower bounds](https://www.sketchingbigdata.org/fall17/lec/lec5.pdf)
-  - [JL Lower bound Optimality](https://www.sketchingbigdata.org/fall17/lec/lec6.pdf)
 
 ## 1403/09/04
 
@@ -263,7 +263,7 @@ Randal J. Barnes
 * [An Introduction to Principal Component Analysis (PCA) with 2018 World Soccer Players Data](https://blog.exploratory.io/an-introduction-to-principal-component-analysis-pca-with-2018-world-soccer-players-data-810d84a14eab), [PDF](../misc/An%20Introduction%20to%20Principal%20Component%20Analysis%20(PCA)%20with%202018%20World%20Soccer%20Players%20Data.pdf)
 * [Using PCA to See Which Countries have Better Players for World Cup Games](https://blog.exploratory.io/using-pca-to-see-which-countries-have-better-players-for-world-cup-games-a72f91698b95), [PDF](../misc/Using%20PCA%20to%20See%20Which%20Countries%20have%20Better%20Players%20for%20World%20Cup%20Games.pdf)
 
-**HW10**{: .label .label-red }[PCA Algorithm](https://vu.um.ac.ir/mod/assign/view.php?id=468055), due: 1403/10/02
+**HW-xx**{: .label .label-red }[PCA Algorithm](https://vu.um.ac.ir/mod/assign/view.php?id=468055), due: 1403/10/02
 
 **Further Reading**{: .label .label-yellow }
 
@@ -301,7 +301,7 @@ Randal J. Barnes
 * Chapter 20 of [Data Mining & Analysis](https://dataminingbook.info/)  
 * Slides (Linear Discriminant Analysis): [PDF](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap20.pdf)
 * [Comparison of LDA and PCA](https://scikit-learn.org/0.16/auto_examples/decomposition/plot_pca_vs_lda.html#example-decomposition-plot-pca-vs-lda-py)
-* HW: Compare LDA and PCA first axis (classification by SVM)
+* HW-xx: Compare LDA and PCA first axis (classification by SVM)
 
 ## 1403/10/09
 
@@ -384,7 +384,7 @@ Randal J. Barnes
 ### Representative-Based Clustering
 
 - Chapter 13 of [Data Mining & Analysis](https://dataminingbook.info/)  
-- **HW**{: .label .label-red } 13.5: Q2, Q4, Q6, Q7 
+- **HW-xx**{: .label .label-red } 13.5: Q2, Q4, Q6, Q7 
 - Slides (Representative-based Clustering): [PDF](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap13.pdf)
 - Slide: [Introduction to Machine Learning (Clustering and EM)](http://www.cs.cmu.edu/~aarti/Class/10701_Spring14/slides/EM.pdf) by Barnabás Póczos & Aarti Singh 
 - Tutorial: [The Expectation Maximization Algorithm](https://www.cs.utah.edu/~piyush/teaching/EM_algorithm.pdf) by 
@@ -435,7 +435,7 @@ Ralf Hartmut Güting
     
 - Chapter 5 of [Data Mining & Analysis](https://dataminingbook.info/)  
 - Kernel-Kmeans Chapter 13 of [Data Mining & Analysis](https://dataminingbook.info/) 
-- **HW**{: .label .label-red } TBA
+- **HW-xx**{: .label .label-red } TBA
 
 **EXAM**{: .label .label-purple }
 
