@@ -42,6 +42,14 @@ tags:
 
 ## 1403/07/14
 
+### k-NN
+
+* [A comparison of several classifiers in scikit-learn](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html)
+
+* **Code**{: .label .label-green} [KNN-Iris](https://colab.research.google.com/github/mamintoosi/DM/blob/master/code/KNN/KNN-iris.ipynb)
+
+* **Code**{: .label .label-green} [KNN-mnist](https://colab.research.google.com/github/mamintoosi/DM/blob/master/code/KNN/KNN-mnist.ipynb)
+
 ### High Dimensional Data
 
 * Section 2.5 of [ESL](https://fumdrive.um.ac.ir/index.php/s/FH8nB4SwGkJrMeQ)
@@ -49,19 +57,19 @@ tags:
 
 * [The curse of dimensionality, Candy example](../../misc/Curse%20of%20Dimensionality%20-%20Candy-Example.pdf)
 
-* Slides [Chap. 1 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap1.pdf)
-
 * Slides [Chap. 6 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap6.pdf)
 
 **Colab**{: .label .label-green }[High Dimensional Data - The curse of dimensionality](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/high_dim_and_CD.ipynb)
-
-**HW-xx**{: .label .label-red }[Page 15 of FDS - Orthogonality of d-dimensional Gaussian vectors](https://vu.um.ac.ir/mod/assign/view.php?id=460674), due: 1403/08/26
 
 **Colab**{: .label .label-green }[High Dimensional Data - KNN](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/high_dim_and_KNN.ipynb)
 
 **Colab**{: .label .label-green }[Clustering of images, as high dim. data](https://colab.research.google.com/github/fum-cs/fds/blob/main/code/image_clustering.ipynb)
 
+**HW-xx**{: .label .label-red }[Page 15 of FDS - Orthogonality of d-dimensional Gaussian vectors](https://vu.um.ac.ir/mod/assign/view.php?id=460674), due: 1403/08/26
+
 **Further Reading**{: .label .label-yellow }
+
+* Slides [Chap. 1 of Zaki](https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap1.pdf)
 * [Random Projection: Theory and Implementation in Python with Scikit-Learn](https://stackabuse.com/random-projection-theory-and-implementation-in-python-with-scikit-learn/)
 * [Johnson–Lindenstrauss lemma](https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma)
 * [Gaussian random projection](https://en.wikipedia.org/wiki/Random_projection)
