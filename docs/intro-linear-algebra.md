@@ -701,8 +701,8 @@ y_1 \\
 y_2
 \end{bmatrix}=
 \begin{bmatrix}
-\alpha x_1 + \alpha x_2\\ 
-\beta y_1 + \beta y_2
+\alpha x_1 + \beta y_1\\ 
+\alpha x_2 + \beta y_2
 \end{bmatrix}
 $$
 
@@ -723,11 +723,11 @@ $$
 5
 \end{bmatrix}=
 \begin{bmatrix}
-2 \times 2 + 2 \times 4\\ 
+2 \times 2 + 3 \times 4\\ 
 2 \times 3 + 3 \times 5
 \end{bmatrix}=
 \begin{bmatrix}
-10 \\
+16 \\
 21
 \end{bmatrix}
 $$
@@ -838,12 +838,12 @@ In its more general form, a **vector space**, also known as **linear space**, is
 
 1. commutativity: $$x + y = y + x$$
 2. associativity: $$x + (y + x) = (y + x) + z$$
-3. unique zero vector such that: $$x + 0 = x$$ $$\forall$$ $$x$$ 
+3. unique zero vector such that: $$x + 0 = x$$, $$\forall$$ $$x$$ 
 4. $$\forall$$ $$x$$ there is a unique vector $$x$$ such that $$x + -x = 0$$
 5. identity element of scalar multiplication: $$1x = x$$
-6. distributivity of scalar multiplication w.r.t vector addition: $$x(y + z) = xz + zy$$
-7. $$x(yz) = (xy)z$$
-8. $$(y + z)x = yx + zx$$
+6. The Distributive Law over Vector Addition: $$\alpha(y + z) = \alpha z + \alpha y$$
+7. The Associative Law for Scalar Multiplication: $$\alpha(\beta x) = (\alpha\beta)x$$
+8. The Distributive Law over Scalar Addition: $$(\alpha + \beta)x = \alpha x + \beta x$$
 
 In my experience remembering  these properties is not really important, but it's good to know that such rules exist.
 
@@ -873,10 +873,9 @@ A **vector subspace (or linear subspace) is a vector space that lies within a la
 
 Intuitively, you can think in closure as being unable to "jump out" from space into another. A pair of vectors laying flat in the 2-dimensional space, can't, by either addition or multiplication, "jump out" into the 3-dimensional space. 
 
-**Fig. 6: Vector subspaces**
+<!-- **Fig. 6: Vector subspaces**
 
-
-![](../assets/images/linear-algebra/b-vector-subspace.svg)
+![](../assets/images/linear-algebra/b-vector-subspace.svg) -->
 
 
 Consider the following questions: Is $$\bf{x}=\begin{bmatrix} 1 \\ 1 \end{bmatrix}$$ a valid subspace of $$\mathbb{R^2}$$? Let's evaluate $$\bf{x}$$ on the three conditions:
@@ -918,7 +917,7 @@ A set of vectors is **linearly independent** if none vector can be obtained as a
 
 The importance of the concepts of linear dependence and independence will become clearer in more advanced topics. For now, the important points to remember are: linearly dependent vectors contain **redundant information**, whereas linearly independent vectors do not.
 
-## Vector null space
+<!-- ## Vector null space
 
 Now that we know what subspaces and linear dependent vectors are, we can introduce the idea of the **null space**. Intuitively, the null space of a set of vectors are **all linear combinations that "map" into the zero vector**. Consider a set of geometric vectors $$\bf{w}$$, $$\bf{x}$$, $$\bf{y}$$, and $$\bf{z}$$ as in **Fig. 8**. By inspection, we can see that vectors $$\bf{x}$$ and $$\bf{z}$$ are parallel to each other, hence, independent. On the contrary, vectors $$\bf{w}$$ and $$\bf{y}$$ can be obtained as linear combinations of $$\bf{x}$$ and $$\bf{z}$$, therefore, dependent. 
 
@@ -937,7 +936,7 @@ z - x + w = 0
 \end{matrix}
 $$
 
-We will see how this idea of the null space extends naturally in the context of matrices later.
+We will see how this idea of the null space extends naturally in the context of matrices later. -->
 
 ## Vector norms
 
