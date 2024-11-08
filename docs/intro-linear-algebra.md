@@ -940,9 +940,9 @@ We will see how this idea of the null space extends naturally in the context of 
 
 ## Vector norms
 
-Measuring vectors is another important operation in machine learning applications. Intuitively, we can think about the **norm** or the **length** of a vector as the distance between its "origin" and its "end".  
+Measuring vectors is another important operation in machine learning applications. Intuitively, we can think about the **[norm](https://fa.wikipedia.org/wiki/%D9%86%D8%B1%D9%85_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA))** or the **length** of a vector as the distance between its "origin" and its "end".  
 
-Norms "map" vectors to non-negative values. In this sense are functions that assign length $$\lVert \bf{x} \rVert \in \mathbb{R^n}$$ to a vector $$\bf{x}$$. To be valid, a norm has to satisfy these properties (keep in mind these properties are a bit abstruse to understand):
+Norms "map" vectors to non-negative values. In this sense are functions that assign length $$\lVert \bf{x} \rVert \in \mathbb{R}{\geq 0}$$ to a vector $$\bf{x}$$. To be valid, a norm has to satisfy these properties (keep in mind these properties are a bit abstruse to understand):
 
 1. **Absolutely homogeneous**: $$\forall \alpha \in \mathbb{R},  \lVert \alpha \bf{x} \rVert = \vert \alpha \Vert \lVert \bf{x} \rVert$$. In words: for all real-valued scalars, the norm scales proportionally with the value of the scalar.
 2. **Triangle inequality**: $$\lVert \bf{x} + \bf{y} \rVert \le \lVert \bf{x} \rVert + \lVert \bf{y} \rVert $$. In words: in geometric terms, for any triangle the sum of any two sides must be greater or equal to the lenght of the third side. This is easy to see experimentally: grab a piece of rope, form triangles of different sizes, measure all the sides, and test this property.
@@ -967,7 +967,7 @@ $$
 Hence, in **two dimensions** the $$L_2$$ norm is:
 
 $$
-\lVert \bf{x} \rVert_2 \in \mathbb{R}^2 = \sqrt {x_1^2  \cdot x_2^2 } 
+\lVert \bf{x} \rVert_2 \in \mathbb{R} = \sqrt {x_1^2  + x_2^2 } 
 $$
 
 Which is equivalent to the formula for the hypotenuse a triangle with sides $$x_1^2$$ and $$x_2^2$$. 
